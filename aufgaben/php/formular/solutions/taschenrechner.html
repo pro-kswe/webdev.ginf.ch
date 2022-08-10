@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Taschenrechner</title>
+</head>
+<body>
+<header>
+    <h1>Taschenrechner</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="taschenrechner.html">Taschenrechner</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <p>
+            Bitte geben Sie zwei Zahlen ein.
+        </p>
+        <form action="berechnen.php" method="post">
+            <label for="zahl1">Zahl:</label>
+            <input type="number" id="zahl1" name="zahl1" required><br>
+            <label for="zahl2">Zahl:</label>
+            <input type="number" id="zahl2" name="zahl2" required><br>
+            <br>
+            <button type="submit">Berechnen</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.section-a {
+    background-color: lightcyan;
+}
+
+.section-b {
+    background-color: lightyellow;
+}
+
+.zitat {
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    background-color: lightgray;
+    font-style: italic;
+}
+
+.uhrzeit {
+    background-color: black;
+    color: white;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.listeneintrag {
+    margin-bottom: 10px;
+}

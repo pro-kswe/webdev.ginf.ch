@@ -1,0 +1,73 @@
+body,
+html {
+    background: #f2f2f2;
+}
+
+span.anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
+}
+
+pre,
+.message {
+    max-width: 960px;
+}
+
+.menu-list > li {
+    margin: 10px;
+}
+
+.hero.is-info {
+    background: linear-gradient(to top right, #3e8ed0 10%, #096aba);
+}
+
+.navbar.is-info {
+    background: linear-gradient(to bottom right, #3e8ed0 10%, #096aba);
+}
+
+.tag:not(body).is-link {
+    background: #3e8ed0;
+}
+
+.box {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.default-link:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.default-link:-webkit-any-link:active {
+    color: -webkit-activelink;
+}
+
+.is-large.fab {
+    font-size: 7em;
+}
+
+.is-large.fas {
+    font-size: 5em;
+    margin-left: 0.2em;
+}
+
+.media-content {
+    overflow: hidden;
+}
+
+.menu-list li a:hover {
+    background: #d9d9d9;
+    color: black;
+}
+
+.menu-list a.is-active {
+    background-color: #3e8ed0;
+    color: #fff;
+}
+
+.footer {
+    background-color: white;
+}
